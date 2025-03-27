@@ -1,3 +1,6 @@
 [submodule "note-design-patterns"]
 	path = note-design-patterns
 	url = git@github.com:kvchen95/note-design-patterns.git
+[submodule "note-macroeconomics"]
+	path = note-macroeconomics
+	url = git@github.com:kvchen95/note-macroeconomics.git
