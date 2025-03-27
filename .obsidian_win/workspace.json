@@ -1,0 +1,246 @@
+{
+  "main": {
+    "id": "39dab5735c71a5e3",
+    "type": "split",
+    "children": [
+      {
+        "id": "5f2c7fbb1ceaf488",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "4aad1b3686496220",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "english/words-4500/词根/ced,cess.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "ced,cess"
+            }
+          },
+          {
+            "id": "a26d36e2a26a2f50",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "go/网络/socket.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "socket"
+            }
+          },
+          {
+            "id": "1e789b990eceb173",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "linux/文件权限.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "文件权限"
+            }
+          }
+        ],
+        "currentTab": 2
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "43bdb7b647ecf6be",
+    "type": "split",
+    "children": [
+      {
+        "id": "1563aa49dd2e5af3",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "88cb795dece957c6",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-folder-closed",
+              "title": "文件列表"
+            }
+          },
+          {
+            "id": "e19d908b9e904349",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "搜索"
+            }
+          },
+          {
+            "id": "3171b0aad4641551",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "书签"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "9b511f76f57349d3",
+    "type": "split",
+    "children": [
+      {
+        "id": "0d55533c298c5b77",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a2d41df2ea963528",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "linux/文件权限.md",
+                "collapseAll": true,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "文件权限 的反向链接列表"
+            }
+          },
+          {
+            "id": "99151067f9feff1f",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "linux/文件权限.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "文件权限 的出链列表"
+            }
+          },
+          {
+            "id": "91223daaac2da0a0",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              },
+              "icon": "lucide-tags",
+              "title": "标签"
+            }
+          },
+          {
+            "id": "811e58b7cc9de66b",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "linux/文件权限.md"
+              },
+              "icon": "lucide-list",
+              "title": "文件权限 的大纲"
+            }
+          },
+          {
+            "id": "41e86748fd9a9a6c",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
+          }
+        ],
+        "currentTab": 4
+      }
+    ],
+    "direction": "horizontal",
+    "width": 503.5,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false,
+      "obsidian-excalidraw-plugin:新建绘图文件": false
+    }
+  },
+  "active": "1e789b990eceb173",
+  "lastOpenFiles": [
+    "front/操作系统/操作系统.md",
+    "进程和线程.md",
+    "go/channel.md",
+    "assets/english/abc-origin/腓尼基A.png",
+    "go/网络/http.md",
+    "go/switch.md",
+    "go/return-exit-goexit.md",
+    "go/range.md",
+    "go/label.md",
+    "rust/1.基本编程概念/1.3复合类型.md",
+    "rust/1.基本编程概念/1.2标量类型.md",
+    "rust/1.基本编程概念/1.1变量与可变性.md",
+    "rust/1.基本编程概念/1.0基本编程概念.md",
+    "english/words-4500/词根/ced,cess.md",
+    "english/words-4500/后缀/-ward.md",
+    "english/words-4500/后缀/-y.md",
+    "english/words-4500/七领域十八话题/七领域十八话题.md",
+    "docker/Docker底层原理.md",
+    "docker/UnionFS(联合文件系统).md",
+    "docker/Docker基础知识.md",
+    "program/interview/bailongma.md",
+    "front/js/instanceof原理.md",
+    "program/interview/pingan-interview.md",
+    "docker/Docker.md",
+    "docker/Docker常用命令.md",
+    "docker/docker 搭建前端开发环境.md",
+    "README.md",
+    "rust/7.错误处理",
+    "rust/6.常用的集合",
+    "rust/5.Package,Crate,Module",
+    "rust/4.枚举与模式匹配",
+    "rust/3.struct",
+    "未命名.canvas",
+    "rust/2.所有权",
+    "rust/1.基本编程概念",
+    "rust",
+    "Excalidraw"
+  ]
+}
