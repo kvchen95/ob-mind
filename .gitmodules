@@ -7,3 +7,6 @@
 [submodule "note-docker"]
 	path = note-docker
 	url = git@github.com:kvchen95/note-docker.git
+[submodule "note-english-4500"]
+	path = note-english-4500
+	url = git@github.com:kvchen95/note-english-4500.git
