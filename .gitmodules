@@ -10,3 +10,6 @@
 [submodule "note-english-4500"]
 	path = note-english-4500
 	url = git@github.com:kvchen95/note-english-4500.git
+[submodule "software-architect"]
+	path = software-architect
+	url = git@github.com:kvchen95/software-architect.git
