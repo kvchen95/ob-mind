@@ -2,6 +2,9 @@
 study  &amp; mind &amp; note
 
 ```bash
+# 初始化
+git submodule init
+
 # 添加子模块到 项目
 git submodule add <仓库URL> <本地路径>
 
