@@ -1,0 +1,35 @@
+name: Sync Submodule
+
+on:
+  push:
+    branches: [master] # 监听主分支的推送事件
+
+jobs:
+  sync - submodule:
+    runs - on: debian - latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+        with:
+          submodules: true # 确保检出 submodule 代码
+
+      - name: Set up Git config
+        run: |
+          git config --global user.name "github - actions[bot]"
+          git config --global user.email "github - actions[bot]@users.noreply.github.com"
+
+      - name: Update submodule
+        run: |
+          # 更新 submodule
+          git submodule foreach git pull origin master
+
+          # 检查是否有 submodule 更新
+          if [ -n "$(git diff --submodule)" ]; then
+            echo "Submodule updated, committing changes..."
+            git add .
+            git commit -m "Update submodule"
+            git push
+          else
+            echo "No submodule updates found."
+          fi
