@@ -25,10 +25,7 @@ jobs:
           git submodule init
           git submodule update --init --recursive
           git add .
-          if git diff-index --quiet HEAD --; then
-            echo "No changes."
-          else
-            git commit -m "自动同步子模块 [skip ci]"
-            git pull --rebase  # 避免推送冲突
-            git push
+          git commit -m "自动同步子模块 [skip ci]"
+          git pull --rebase  # 避免推送冲突
+          git push
           fi
