@@ -20,17 +20,24 @@ jobs:
           git config --global user.email "github - actions[bot]@kvchen95.github.com"
           git config --global pull.rebase false
 
-      - name: Update submodule
+      - name: Pull latest submodule code (允许无关历史)
         run: |
-          # 更新 submodule
-          git submodule foreach git pull origin master
+          cd libs/note-rxjs  # 替换为你的子模块路径
+          git config pull.rebase false  # 禁用 rebase
+          git pull origin main --allow-unrelated-histories --force
+          cd -
+          git submodule sync
+          git submodule update --init --recursive --force
 
-          # 检查是否有 submodule 更新
-          if [ -n "$(git diff --submodule)" ]; then
-            echo "Submodule updated, committing changes..."
-            git add .
-            git commit -m "Update submodule"
-            git push
+      - name: Commit and push changes
+        run: |
+          git config user.name "GitHub Actions Bot"
+          git config user.email "actions@github.com"
+          git add .
+          if git diff-index --quiet HEAD --; then
+            echo "No changes."
           else
-            echo "No submodule updates found."
+            git commit -m "自动同步子模块 [skip ci]"
+            git pull --rebase  # 避免推送冲突
+            git push
           fi
