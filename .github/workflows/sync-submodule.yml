@@ -16,6 +16,7 @@ jobs:
 
       - name: Set up Git config
         run: |
+          git config --global url."https://oauth2:${GITHUB_TOKEN}@github.com".insteadOf "https://github.com"  # 替换 GitHub 认证
           git config --global user.name "github - actions[bot]"
           git config --global user.email "github - actions[bot]@kvchen95.github.com"
           git config --global pull.rebase false
