@@ -5,8 +5,8 @@ on:
     branches: [master] # 监听主分支的推送事件
 
 jobs:
-  sync - submodule:
-    runs - on: debian - latest
+  sync-submodule:
+    runs-on: ubuntu-latest
 
     steps:
       - name: Checkout code
